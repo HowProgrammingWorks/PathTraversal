@@ -20,7 +20,7 @@ const MIME_TYPES = {
 
 const serveFile = name => {
   const filePath = path.join(STATIC_PATH, name);
-  console.log(`Serve: ${name}`);
+  console.log(`Serve: ${name} from ${filePath}`);
   const stream = fs.createReadStream(filePath);
   return stream;
 };
