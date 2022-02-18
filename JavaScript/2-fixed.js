@@ -3,8 +3,6 @@
 // Use curl after run this file:
 // curl -v http://127.0.0.1:8000/%2e%2e/1-traversal.js
 
-'use strict';
-
 const fs = require('fs');
 const http = require('http');
 const path = require('path');
